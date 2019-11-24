@@ -4,7 +4,7 @@ from django import http
 from django.conf import settings
 from django.contrib.sites.shortcuts import get_current_site
 from django.core.exceptions import ImproperlyConfigured
-from .models import Redirect
+from models import Redirect
 
 
 class RedirectMiddleware(object):
